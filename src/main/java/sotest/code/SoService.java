@@ -9,8 +9,8 @@ public class SoService {
     SoDao soDao;
     @Transactional
     public int incincUsernum(){
-        String bm = "15";
-        int i = soDao.incUsernum(bm);
+//        String bm = "'15','16','17'";
+        int i = soDao.incUsernum();
         System.out.println("--->"+i);
         return i;
     }
